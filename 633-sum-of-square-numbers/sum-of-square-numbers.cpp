@@ -12,7 +12,7 @@ public:
                 return true;
             else if(z>c)
                 j--;
-            else if(z<c)
+            else
                 i++;
         }
         return false;
